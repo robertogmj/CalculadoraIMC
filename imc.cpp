@@ -16,4 +16,14 @@ int main(){
 
     cout << "O seu IMC é de: " << cimc;
 
+    if(cimc < 18.5){
+        cout << " Abaixo do Peso";
+    }else if((cimc >= 18,5) and (cimc <= 24.9)){
+        cout << " Peso Normal";
+    }else if((cimc >= 25) and (cimc <= 29.9)){
+        cout << " Sobrepeso";
+    }else{
+        cout << " Obesidade";
+    }
+
 }
